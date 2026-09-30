@@ -12,3 +12,6 @@ test("test subtraction", ()=> {
     expect(appOperations.subtract(15,5)).toBe(10);
 })
 
+test("test division", ()=> {
+    expect(appOperations.divide(20,10)).toBe(2);
+})
